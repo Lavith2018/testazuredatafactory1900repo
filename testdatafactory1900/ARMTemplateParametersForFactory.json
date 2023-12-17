@@ -1,0 +1,15 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "testdatafactory1900"
+		},
+		"LS_ADLSGEN2Connection_properties_typeProperties_url": {
+			"value": "https://testadlsgen1900.dfs.core.windows.net/"
+		},
+		"LS_BlobConnection_properties_typeProperties_serviceEndpoint": {
+			"value": "https://testblob1900.blob.core.windows.net/"
+		}
+	}
+}
